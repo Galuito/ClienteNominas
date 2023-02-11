@@ -1,0 +1,153 @@
+body{
+    background-color: #b3e6ff;
+}
+
+
+.titulo{
+    margin: 10px;
+    display: block;
+    font-size: 50px;
+    text-align: left;
+    padding-left: 60px;
+    color: #248f8f;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #5c8a8a;
+    padding: 10px;
+    text-align: left;
+  }
+
+
+.botoncitos{
+    color: white;
+    margin-bottom: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+
+input {
+    display:block;
+    width:90%;
+    margin-bottom: 2px;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: none;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select{
+    display:block;
+    width:90%;
+    margin-bottom: 5px;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    background-color: #fafafa;
+    border: none;
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+}
+
+.botonRegistrar{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color:#c2efef;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px 60px;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #248f8f;
+    display: inline-block;
+    text-align: center;
+}
+
+.botonRegistrar:hover{
+    background-color: #71ebeb;
+    cursor:pointer;
+}
+
+.datosEmpleados{
+    border-radius: 25px;
+    text-align: left;
+    padding: 20px;
+    padding-left: 35px;
+    background-color: #248f8f;
+    float: left;
+    margin-left: 100px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.tablita{
+    padding-left: 25%;
+    padding-right: 25%;
+    border-collapse: collapse;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+tr{
+    background-color: #0d6d7a;
+    color: wheat;
+}
+
+tr:hover {
+    background-color: #0b636e;
+}
+
+th {
+    background-color: #248f8f;
+    color: white;
+  }
+
+
+
+.tablaEmpleados{
+    margin-right: 45px;
+    float: right;
+    color:#248f8f;
+    width: 50%;
+    height: auto;
+}
+
+.subtitulitoTablita{
+    text-align: left;
+    padding-left: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 4px;
+}
+
+.conceptoEmpleados{
+    padding-top: 1px;
+    border-radius: 25px;
+    text-align: left;
+    padding-left: 35px;
+    background-color: #248f8f;
+    margin-left: 350px;
+    width: 18%;
+    height: 530px;
+}
+
+
+.subtitulito{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #e6f7ff;
+    margin: 10px 2px;
+}
+
+#cuadrado1{
+    display: block;
+}
+
+#tablaConceptos, #tablaAsignados, #tablaRevisar, #cuadrado2, #cuadrado3, #cuadrado4{
+    display: none;
+
+}
+.separation{
+    margin: 20px;
+}
